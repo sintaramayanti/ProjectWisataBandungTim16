@@ -45,8 +45,13 @@
     span.menu-icon {
       display: block;
     }
-  
-    footer {
-      text-align: center;
+
+    .card {
+      width: 100%;
     }
+
+    .lesson {
+      width: 50%;
+    }
+  
   }
