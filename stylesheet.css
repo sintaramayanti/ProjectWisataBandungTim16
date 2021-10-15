@@ -1,0 +1,120 @@
+
+* {
+  box-sizing: border-box;
+}
+
+html, body,
+ul, ol, li,
+h1, h2, h3, h4, h5, h6, p, div {
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  font-family: "Candara";
+}
+
+a {
+  text-decoration: none;
+}
+
+.clear {
+  clear: left;
+}
+
+.container {
+  max-width: 1170px;
+  padding: 0 15px;
+  margin: 0 auto;
+}
+
+.top-wrapper {
+  padding: 180px 0 100px 0;
+  background-image: url('bg1.jpg');
+  background-size: cover;
+  color: white;
+  text-align: center;
+}
+
+.top-wrapper h1 {
+  font-size: 75px;
+  letter-spacing: 5px;
+  margin-bottom: 10px;
+  font-family: "Cambria";
+}
+
+.top-wrapper p {
+  margin-bottom: 3px;
+  font-size: 20px;
+  font-weight: lighter;
+}
+
+.scroll {
+  background-color: rgb(214, 214, 214);
+  margin: 200px 0;
+}
+
+
+.btn {
+  padding: 20px 34px;
+  color: rgb(0, 0, 0);
+  display: inline-block;
+  opacity: 0.5;
+  border-radius: 4px;
+  text-align: center;
+  font-size: 25px;
+  font-style: bold;
+  font-family: "Courier New";
+}
+
+.btn:hover {
+  opacity: 1;
+}
+
+.fa {
+  margin-right: 5px;
+}
+
+header {
+  height: 65px;
+  width: 100%;
+  background-color: #2f5167;
+  position :fixed;
+  top: 0;
+  z-index: 10;
+}
+
+.logo {
+  width: 124px;
+  margin-top: 20px;
+}
+
+.header-left {
+  float: left;
+}
+
+.header-right {
+  float: right;
+  margin-right: -25px;
+}
+
+.header-right a {
+  line-height: 65px;
+  padding: 0 25px;
+  color: rgb(172, 172, 172);
+  display: block;
+  float: left;
+  transition: all 0.5s;
+}
+
+.header-right a:hover {
+  background-color: rgb(226, 226, 226);
+}
+
+span.menu-icon {
+    color: white;
+    float: right;
+    font-size: 25px;
+    padding: 21px 0;
+    display: none;
+  }
