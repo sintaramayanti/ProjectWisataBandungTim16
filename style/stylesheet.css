@@ -39,8 +39,8 @@ a {
 .top-wrapper h1 {
   font-size: 75px;
   letter-spacing: 5px;
-  margin-bottom: 10px;
-  font-family: cursive;
+  margin-bottom: 15px;
+  font-family: "Verdana";
 }
 
 .top-wrapper p {
@@ -123,17 +123,19 @@ span.menu-icon {
     text-align: center;
     font-weight: bold;
   }
-.lesson{
+
+  .lesson{
 float:left;
-weight:25%;
+width:25%;
 }
+
 .lesson-icon{
 position:relative;
 }
 .lesson-icon img{
 width:285px;
 height:150px;
-padding-bottom: 40px;
+padding-bottom: 20px;
 }
 .text p{
   text-align:center;
@@ -150,6 +152,11 @@ padding-left: 5%;
 padding-right: 5%;
 background-color: #f9f7fd;
 }
+.message-wrapper {
+  padding-bottom: 30%;
+  text-align: center;
+  padding-top: 20px;
+}
 .card-item{
 padding-top: 40px;
 padding-left: 5%;
@@ -162,7 +169,7 @@ float: left;
 width: 33%;
 }
 .card img{
-width:400px;
+width:380px;
 height:250px;
 padding-top: 20px;
 }
@@ -183,36 +190,20 @@ text-align: center;
 cursor: pointer;
 width: 50%;
 font-size: 18px;
-margin-left: 100px;
 }
 button:hover {
 opacity: 0.9;
 }
-.footer {
-  background-color: #2f5167;
-  color: #fff;
-  height: 90px;
 
-}
-
-.footer-left {
-	padding-top:20px;
-  font-size: 32px;
-  padding-left:20px;
-}
-.footer-right{
-	float:left;
-	padding-right:20px;
-	font-size:18px;
-}
-.footer-list {
-  float: left;
-  padding-top: 0;
-  padding bottom:0;
-  padding-right:20px;
+footer {
+  padding-top: 10px;
+  padding-bottom: 20px;
+  background-color: #310725;
 }
 
-.footer-list li {
-  padding-bottom: 2px;
+.cpr {
+  text-align: center;
+  color: #7A7A7A;
+  font: 10px Roboto, sans-serif;
+  margin-top: 15px;
 }
-

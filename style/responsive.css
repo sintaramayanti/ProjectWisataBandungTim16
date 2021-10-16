@@ -12,6 +12,10 @@
     width: 50%;
     margin-bottom: 50px;
   }
+
+  footer {
+    width: 100%;
+  }
 }
 
 /* Untuk Smartphone */
@@ -41,15 +45,43 @@
   .scroll {
     width: 100%;
   }
+
+  .lesson-wrapper {
+    width: 100%;
+  }
+
+  .lesson-wrapper img {
+    width: auto;
+    line-height: 50px;
+  }
   
   span.menu-icon {
     display: block;
   }
-  .card{
+
+  .h3 {
+    text-align: center;
+  }
+
+  .button {
+    display: block;
+  }
+
+  .message-wrapper {
     width: 100%;
   }
 
+  .card{
+    display: auto;
+    width: 100%;
+  }
+
+  .card img {
+    display: auto;
+  }
+
   footer {
+    display: auto;
     text-align: center;
   }
 }
