@@ -14,23 +14,6 @@ body {
   font-family: "Candara";
 }
 
-.header {
-	background-color: #310725;
-	color: blanchedalmond;
-	height: 80px;
-}
-.header-logo {
-	float: left;
-	fon-size: 50px;
-	padding: 30px 60px;
-}
-.header-list li {
-	float: left;
-	padding: 33px 20px;
-	margin-left: 20px;
-	float: right;
-	color: blueviolet;
-}
 a {
   text-decoration: none;
 }
@@ -57,7 +40,7 @@ a {
   font-size: 75px;
   letter-spacing: 5px;
   margin-bottom: 10px;
-  font-family: "Cambria";
+  font-family: cursive;
 }
 
 .top-wrapper p {
@@ -95,7 +78,8 @@ a {
 header {
   height: 65px;
   width: 100%;
-  background-color: #425e70;
+  background-color: #310725;
+  color: blanchedalmond;
   position :fixed;
   top: 0;
   z-index: 10;
